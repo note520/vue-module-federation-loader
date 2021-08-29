@@ -1,0 +1,31 @@
+{
+  "name": "vue-module-federation-loader",
+  "version": "0.1.0",
+  "keywords": [
+    "vue-module-federation-loader,module federation,dynamically remote,vue"
+  ],
+  "description": "webpack5 module federation dynamically loading vue",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tm watch",
+    "build": "tm b",
+    "mock": "tm mock -d ./dist -p 8000"
+  },
+  "author": "ricopter@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.15.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/note520/vue-module-federation-loader.git"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "README.en.md"
+  ]
+}

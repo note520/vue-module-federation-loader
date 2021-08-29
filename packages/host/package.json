@@ -1,0 +1,16 @@
+{
+  "name": "host",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tm s",
+    "build:host": "tm b",
+    "mock:host": "tm mock -d ./dist -p 9090"
+  },
+  "author": "ricopter@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "2.5.17",
+    "vue-router": "3.0.1"
+  }
+}
