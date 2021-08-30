@@ -28,7 +28,7 @@ npm install vue-module-federation-loader
 ```
 ##### 2、主应用里调用加载子应用的模块
 ```javascript
-// 入口处引入或者CDN方式引入(vue-module-federation-loader/dist/indexjs),请自习行部署
+// 入口处引入或者CDN方式引入(vue-module-federation-loader/dist/indexjs),请自行部署
 import "vue-module-federation-loader";
 
 // 获取子应用remote的Header组件
